@@ -1,9 +1,13 @@
 RAG
+https://www.youtube.com/watch?v=buTi1AarFDs
+
+
 Retrieval Augmented Generation : Retrieval-Augmented Generation (RAG) is the process of optimizing the output of a large language model
 
 There are several steps in RAG
 
-1 . Cleaned Data
+1 . Cleaned Data send to Embedding Model
+
 2 . Make Embeddings the cleaned Data Through Embeddings Model
 Embeddings are numerical representations of data (text, images, audio, etc.) in a lower-dimensional vector space.
 They are a way to convert complex, unstructured data into a structured form that machine learning models can process efficiently.
@@ -26,3 +30,9 @@ Focuses on combining structured and vector data for hybrid search.
 
 Redis:
 Offers vector similarity search as a module alongside traditional database functionalities.
+
+After user generate prompt 
+the RAG finds the nearest Embeddings in vector database and send to LLM[like openai,llama etc]
+and optimise the output for understanding the user
+
+
