@@ -1,0 +1,30 @@
+Langchain
+
+is a opensource framework that uses LLMs to build applications
+
+Chains:
+Chains combine multiple steps (like LLM calls or API interactions) into a unified workflow.
+Example:
+Input: "What are spicy vegetarian Indian dishes?"
+Chain: Semantic search + database query + response generation.
+Output: "Try Chana Masala or Veg Kolhapuri."
+
+Agents:
+Agents use LLMs to make decisions and interact with tools (e.g., APIs or vector databases) in real time.
+Example: A restaurant chatbot that queries a menu database to answer customer questions like "What's gluten-free?"
+
+Memory:
+Keeps context across interactions, allowing for conversational AI with memory.
+Example: A virtual assistant that remembers a customer prefers "mild spice level."
+
+Document Loaders:
+Helps ingest and process external data like PDFs, Word documents, or webpages.
+Example: Load your menu or recipe data into LangChain for semantic search.
+
+Vector Stores:
+LangChain integrates with vector databases (like Pinecone, Weaviate, or FAISS) for retrieval-augmented generation (RAG).
+Example: Store embeddings of dishes or recipes for semantic search.
+
+Prompt Templates:
+Helps structure the input to LLMs for consistent and optimized outputs.
+Example: Define templates for customer queries like "What drinks pair well with spicy curries?"
