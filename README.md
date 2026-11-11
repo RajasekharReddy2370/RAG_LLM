@@ -6,3 +6,5 @@ then open terminal run this command :-- ollama serve
 then in another terminal :-- ollama list
 if anything not there  :-- ollama pull model name
 then :--  ollama run modelname
+
+this is readme file
